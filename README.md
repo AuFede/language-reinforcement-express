@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=JmJ1WUoUIK4
 
-30:42
+36:15
 
 #### --- Métodos de petición HTTP --- HTTP Verbs --- :
 
@@ -11,6 +11,7 @@ https://www.youtube.com/watch?v=JmJ1WUoUIK4
 3. PUT: El Cliente está intentando actualizar algo. Ej: actualizar un dato de usuario completamente.
 4. DELETE: El Cliente está intentando eliminar un dato (del Cliente) en el Servidor.
 5. PATCH: Es parecido al verbo PUT, la diferencia es que sirve para actualizar una parte de los datos, no todo.
+6. Las operaciones típicas que hacen estos métodos: crear, actualizar, listar y eliminar, se los conoce como CRUD.
 
 #### Algunas consideraciones:
 
@@ -21,3 +22,4 @@ de cómo escribir el código.
 4. root: __dirname sirve para que el archivo sea leido desde su directorio inicial. __dirname sirve para ejecutar la ruta completa desde el sistema inicial hasta el proyecto.
 5. 'send' está disponible sólo en express y sirve para darle más información al navegador sobre el tipo de valor que vamos a enviar.
 6. Con 'status' mandamos el tipo de res que queremos que devuelva el navegador.
+7. Usar la extensión de Thunder Client nos permite tener un cliente 'res' dentro de VSCode.
