@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=JmJ1WUoUIK4
 
-36:15
+50:00
 
 #### --- Métodos de petición HTTP --- HTTP Verbs --- :
 
@@ -19,7 +19,8 @@ https://www.youtube.com/watch?v=JmJ1WUoUIK4
 2. Express es un framework unopinionated: Esto quiere decir que no nos da indicaciones
 de cómo escribir el código.
 3. Es importante destacar que express al igual que NodeJS, usa el modelo cliente-servidor: HTTP (REQUEST-RESPONSE).
-4. root: __dirname sirve para que el archivo sea leido desde su directorio inicial. __dirname sirve para ejecutar la ruta completa desde el sistema inicial hasta el proyecto.
+4. root: __dirname sirve para que el archivo sea leido desde su directorio inicial. __dirname sirve para ejecutar la ruta completa desde el sistema inicial hasta el proyecto (es decir, desde el disco duro).
 5. 'send' está disponible sólo en express y sirve para darle más información al navegador sobre el tipo de valor que vamos a enviar.
 6. Con 'status' mandamos el tipo de res que queremos que devuelva el navegador.
 7. Usar la extensión de Thunder Client nos permite tener un cliente 'res' dentro de VSCode.
+8. Desde el Servidor no sólo te puede devolver texto, también pueden ser imagenes, archivos, etc. Para esto, podemos usar 'sendFile'.
