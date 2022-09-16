@@ -12,7 +12,7 @@ app.get ('/miarchivo', (req, res) => {
     })
 })
 
-app.get ('/use', (req, res) => {
+app.get ('/user', (req, res) => {
     res.json({"name": "Augusto"})
 })
 
