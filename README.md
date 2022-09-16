@@ -24,3 +24,7 @@ de cómo escribir el código.
 6. Con 'status' mandamos el tipo de res que queremos que devuelva el navegador.
 7. Usar la extensión de Thunder Client nos permite tener un cliente 'res' dentro de VSCode.
 8. Desde el Servidor no sólo te puede devolver texto, también pueden ser imagenes, archivos, etc. Para esto, podemos usar 'sendFile'.
+9. Los JSON son objetos, por eso no envían funciones.
+10. 304 es una respuesta que siginifica que tu código no ha sido modificado.
+11. 204 es un estado sin contenido.
+11. senStatus sirve para mandar un código de estado.
