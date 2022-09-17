@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=JmJ1WUoUIK4
 
-50:00
+1:12:13
 
 #### --- Métodos de petición HTTP --- HTTP Verbs --- :
 
@@ -27,4 +27,8 @@ de cómo escribir el código.
 9. Los JSON son objetos, por eso no envían funciones.
 10. 304 es una respuesta que siginifica que tu código no ha sido modificado.
 11. 204 es un estado sin contenido.
-11. senStatus sirve para mandar un código de estado.
+12. sendStatus sirve para mandar un código de estado.
+13. Las request y las response están hechas de todas las partes que conforman una petición (endpoint,header,body,etc).
+14. El body es el conteido que me está enviando el cliente.
+15. express.text() sirve para procesar el texto.
+16. form en thunder client sirve para formularios HTML. Express usa urlencoded con extendes false para interpretarlo.
