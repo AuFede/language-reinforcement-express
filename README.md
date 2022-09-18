@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=JmJ1WUoUIK4
 
-1:12:13
+1:20:51
 
 #### --- Métodos de petición HTTP --- HTTP Verbs --- :
 
