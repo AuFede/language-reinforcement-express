@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=JmJ1WUoUIK4
 
-1:28:23
+1:34:08
 
 #### --- Métodos de petición HTTP --- HTTP Verbs --- :
 
@@ -32,3 +32,5 @@ de cómo escribir el código.
 14. El body es el conteido que me está enviando el cliente.
 15. express.text() sirve para procesar el texto.
 16. form en thunder client sirve para formularios HTML. Express usa urlencoded con extendes false para interpretarlo.
+17. Con los ':' dentro de las URL, el servidor puede interpretar ese valor y guardarlo en una variable.
+18. Con '?' hacemos las queries o consultas, es información extra que el navegador puede enviar al backend, para que este último pueda utilizar esa información.
